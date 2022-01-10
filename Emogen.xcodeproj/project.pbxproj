@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C19814278C1A8500F504A6 /* EmogenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19813278C1A8500F504A6 /* EmogenApp.swift */; };
+		17C19816278C1A8500F504A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19815278C1A8500F504A6 /* ContentView.swift */; };
+		17C19818278C1A8700F504A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C19817278C1A8700F504A6 /* Assets.xcassets */; };
+		17C1981B278C1A8700F504A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C1981A278C1A8700F504A6 /* Preview Assets.xcassets */; };
+		17C19825278C1A8800F504A6 /* EmogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19824278C1A8800F504A6 /* EmogenTests.swift */; };
+		17C1982F278C1A8800F504A6 /* EmogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C1982E278C1A8800F504A6 /* EmogenUITests.swift */; };
+		17C19831278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19830278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C19821278C1A8800F504A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C19808278C1A8500F504A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C1980F278C1A8500F504A6;
+			remoteInfo = Emogen;
+		};
+		17C1982B278C1A8800F504A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C19808278C1A8500F504A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C1980F278C1A8500F504A6;
+			remoteInfo = Emogen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C19810278C1A8500F504A6 /* Emogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C19813278C1A8500F504A6 /* EmogenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenApp.swift; sourceTree = "<group>"; };
+		17C19815278C1A8500F504A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17C19817278C1A8700F504A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C1981A278C1A8700F504A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17C19820278C1A8800F504A6 /* EmogenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmogenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C19824278C1A8800F504A6 /* EmogenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenTests.swift; sourceTree = "<group>"; };
+		17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C1982E278C1A8800F504A6 /* EmogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenUITests.swift; sourceTree = "<group>"; };
+		17C19830278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C1980D278C1A8500F504A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1981D278C1A8800F504A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C19827278C1A8800F504A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C19807278C1A8500F504A6 = {
+			isa = PBXGroup;
+			children = (
+				17C19812278C1A8500F504A6 /* Emogen */,
+				17C19823278C1A8800F504A6 /* EmogenTests */,
+				17C1982D278C1A8800F504A6 /* EmogenUITests */,
+				17C19811278C1A8500F504A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C19811278C1A8500F504A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C19810278C1A8500F504A6 /* Emogen.app */,
+				17C19820278C1A8800F504A6 /* EmogenTests.xctest */,
+				17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C19812278C1A8500F504A6 /* Emogen */ = {
+			isa = PBXGroup;
+			children = (
+				17C19813278C1A8500F504A6 /* EmogenApp.swift */,
+				17C19815278C1A8500F504A6 /* ContentView.swift */,
+				17C19817278C1A8700F504A6 /* Assets.xcassets */,
+				17C19819278C1A8700F504A6 /* Preview Content */,
+			);
+			path = Emogen;
+			sourceTree = "<group>";
+		};
+		17C19819278C1A8700F504A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17C1981A278C1A8700F504A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17C19823278C1A8800F504A6 /* EmogenTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C19824278C1A8800F504A6 /* EmogenTests.swift */,
+			);
+			path = EmogenTests;
+			sourceTree = "<group>";
+		};
+		17C1982D278C1A8800F504A6 /* EmogenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C1982E278C1A8800F504A6 /* EmogenUITests.swift */,
+				17C19830278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift */,
+			);
+			path = EmogenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C1980F278C1A8500F504A6 /* Emogen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C19834278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "Emogen" */;
+			buildPhases = (
+				17C1980C278C1A8500F504A6 /* Sources */,
+				17C1980D278C1A8500F504A6 /* Frameworks */,
+				17C1980E278C1A8500F504A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emogen;
+			productName = Emogen;
+			productReference = 17C19810278C1A8500F504A6 /* Emogen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C1981F278C1A8800F504A6 /* EmogenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C19837278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "EmogenTests" */;
+			buildPhases = (
+				17C1981C278C1A8800F504A6 /* Sources */,
+				17C1981D278C1A8800F504A6 /* Frameworks */,
+				17C1981E278C1A8800F504A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C19822278C1A8800F504A6 /* PBXTargetDependency */,
+			);
+			name = EmogenTests;
+			productName = EmogenTests;
+			productReference = 17C19820278C1A8800F504A6 /* EmogenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C19829278C1A8800F504A6 /* EmogenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C1983A278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "EmogenUITests" */;
+			buildPhases = (
+				17C19826278C1A8800F504A6 /* Sources */,
+				17C19827278C1A8800F504A6 /* Frameworks */,
+				17C19828278C1A8800F504A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C1982C278C1A8800F504A6 /* PBXTargetDependency */,
+			);
+			name = EmogenUITests;
+			productName = EmogenUITests;
+			productReference = 17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C19808278C1A8500F504A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					17C1980F278C1A8500F504A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					17C1981F278C1A8800F504A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 17C1980F278C1A8500F504A6;
+					};
+					17C19829278C1A8800F504A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 17C1980F278C1A8500F504A6;
+					};
+				};
+			};
+			buildConfigurationList = 17C1980B278C1A8500F504A6 /* Build configuration list for PBXProject "Emogen" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C19807278C1A8500F504A6;
+			productRefGroup = 17C19811278C1A8500F504A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C1980F278C1A8500F504A6 /* Emogen */,
+				17C1981F278C1A8800F504A6 /* EmogenTests */,
+				17C19829278C1A8800F504A6 /* EmogenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C1980E278C1A8500F504A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1981B278C1A8700F504A6 /* Preview Assets.xcassets in Resources */,
+				17C19818278C1A8700F504A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1981E278C1A8800F504A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C19828278C1A8800F504A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C1980C278C1A8500F504A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C19816278C1A8500F504A6 /* ContentView.swift in Sources */,
+				17C19814278C1A8500F504A6 /* EmogenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1981C278C1A8800F504A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C19825278C1A8800F504A6 /* EmogenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C19826278C1A8800F504A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1982F278C1A8800F504A6 /* EmogenUITests.swift in Sources */,
+				17C19831278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C19822278C1A8800F504A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C1980F278C1A8500F504A6 /* Emogen */;
+			targetProxy = 17C19821278C1A8800F504A6 /* PBXContainerItemProxy */;
+		};
+		17C1982C278C1A8800F504A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C1980F278C1A8500F504A6 /* Emogen */;
+			targetProxy = 17C1982B278C1A8800F504A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17C19832278C1A8800F504A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C19833278C1A8800F504A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C19835278C1A8800F504A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emogen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.Emogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C19836278C1A8800F504A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emogen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.Emogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C19838278C1A8800F504A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.EmogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emogen.app/Emogen";
+			};
+			name = Debug;
+		};
+		17C19839278C1A8800F504A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.EmogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emogen.app/Emogen";
+			};
+			name = Release;
+		};
+		17C1983B278C1A8800F504A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.EmogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emogen;
+			};
+			name = Debug;
+		};
+		17C1983C278C1A8800F504A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.EmogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Emogen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C1980B278C1A8500F504A6 /* Build configuration list for PBXProject "Emogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C19832278C1A8800F504A6 /* Debug */,
+				17C19833278C1A8800F504A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C19834278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "Emogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C19835278C1A8800F504A6 /* Debug */,
+				17C19836278C1A8800F504A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C19837278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "EmogenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C19838278C1A8800F504A6 /* Debug */,
+				17C19839278C1A8800F504A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C1983A278C1A8800F504A6 /* Build configuration list for PBXNativeTarget "EmogenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C1983B278C1A8800F504A6 /* Debug */,
+				17C1983C278C1A8800F504A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C19808278C1A8500F504A6 /* Project object */;
+}
