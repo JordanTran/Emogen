@@ -14,6 +14,8 @@
 		17C19825278C1A8800F504A6 /* EmogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19824278C1A8800F504A6 /* EmogenTests.swift */; };
 		17C1982F278C1A8800F504A6 /* EmogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C1982E278C1A8800F504A6 /* EmogenUITests.swift */; };
 		17C19831278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19830278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift */; };
+		17C19844278C22BF00F504A6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C19843278C22BF00F504A6 /* KeyboardViewController.swift */; };
+		17C19848278C22BF00F504A6 /* EmogenKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17C19841278C22BF00F504A6 /* EmogenKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,28 @@
 			remoteGlobalIDString = 17C1980F278C1A8500F504A6;
 			remoteInfo = Emogen;
 		};
+		17C19846278C22BF00F504A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C19808278C1A8500F504A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C19840278C22BF00F504A6;
+			remoteInfo = EmogenKeyboard;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17C1984C278C22BF00F504A6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17C19848278C22BF00F504A6 /* EmogenKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		17C19810278C1A8500F504A6 /* Emogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,9 @@
 		17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C1982E278C1A8800F504A6 /* EmogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenUITests.swift; sourceTree = "<group>"; };
 		17C19830278C1A8800F504A6 /* EmogenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmogenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17C19841278C22BF00F504A6 /* EmogenKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EmogenKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C19843278C22BF00F504A6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		17C19845278C22BF00F504A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +94,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17C1983E278C22BF00F504A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +110,7 @@
 				17C19812278C1A8500F504A6 /* Emogen */,
 				17C19823278C1A8800F504A6 /* EmogenTests */,
 				17C1982D278C1A8800F504A6 /* EmogenUITests */,
+				17C19842278C22BF00F504A6 /* EmogenKeyboard */,
 				17C19811278C1A8500F504A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +121,7 @@
 				17C19810278C1A8500F504A6 /* Emogen.app */,
 				17C19820278C1A8800F504A6 /* EmogenTests.xctest */,
 				17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */,
+				17C19841278C22BF00F504A6 /* EmogenKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +162,15 @@
 			path = EmogenUITests;
 			sourceTree = "<group>";
 		};
+		17C19842278C22BF00F504A6 /* EmogenKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				17C19843278C22BF00F504A6 /* KeyboardViewController.swift */,
+				17C19845278C22BF00F504A6 /* Info.plist */,
+			);
+			path = EmogenKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +181,12 @@
 				17C1980C278C1A8500F504A6 /* Sources */,
 				17C1980D278C1A8500F504A6 /* Frameworks */,
 				17C1980E278C1A8500F504A6 /* Resources */,
+				17C1984C278C22BF00F504A6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				17C19847278C22BF00F504A6 /* PBXTargetDependency */,
 			);
 			name = Emogen;
 			productName = Emogen;
@@ -183,6 +229,23 @@
 			productReference = 17C1982A278C1A8800F504A6 /* EmogenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		17C19840278C22BF00F504A6 /* EmogenKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C19849278C22BF00F504A6 /* Build configuration list for PBXNativeTarget "EmogenKeyboard" */;
+			buildPhases = (
+				17C1983D278C22BF00F504A6 /* Sources */,
+				17C1983E278C22BF00F504A6 /* Frameworks */,
+				17C1983F278C22BF00F504A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmogenKeyboard;
+			productName = EmogenKeyboard;
+			productReference = 17C19841278C22BF00F504A6 /* EmogenKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +267,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 17C1980F278C1A8500F504A6;
 					};
+					17C19840278C22BF00F504A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 17C1980B278C1A8500F504A6 /* Build configuration list for PBXProject "Emogen" */;
@@ -222,6 +288,7 @@
 				17C1980F278C1A8500F504A6 /* Emogen */,
 				17C1981F278C1A8800F504A6 /* EmogenTests */,
 				17C19829278C1A8800F504A6 /* EmogenUITests */,
+				17C19840278C22BF00F504A6 /* EmogenKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +311,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		17C19828278C1A8800F504A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1983F278C22BF00F504A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,6 +353,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		17C1983D278C22BF00F504A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C19844278C22BF00F504A6 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +373,11 @@
 			isa = PBXTargetDependency;
 			target = 17C1980F278C1A8500F504A6 /* Emogen */;
 			targetProxy = 17C1982B278C1A8800F504A6 /* PBXContainerItemProxy */;
+		};
+		17C19847278C22BF00F504A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C19840278C22BF00F504A6 /* EmogenKeyboard */;
+			targetProxy = 17C19846278C22BF00F504A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +501,7 @@
 		17C19835278C1A8800F504A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +530,7 @@
 		17C19836278C1A8800F504A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +628,54 @@
 			};
 			name = Release;
 		};
+		17C1984A278C22BF00F504A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmogenKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EmogenKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.Emogen.EmogenKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C1984B278C22BF00F504A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmogenKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EmogenKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JT.Emogen.EmogenKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,6 +711,15 @@
 			buildConfigurations = (
 				17C1983B278C1A8800F504A6 /* Debug */,
 				17C1983C278C1A8800F504A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C19849278C22BF00F504A6 /* Build configuration list for PBXNativeTarget "EmogenKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C1984A278C22BF00F504A6 /* Debug */,
+				17C1984B278C22BF00F504A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
