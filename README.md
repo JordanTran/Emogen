@@ -4,4 +4,4 @@ Text Suggestion Specialize for Emojis
 www.emogen.app
 
 # Model/Data Download
-https://drive.google.com/file/d/1-4Veri3_GGHSVAjJSjZf9YOCi7w_RS8L/view?usp=sharing
+https://drive.google.com/drive/folders/14Znxof0JSHRKYRasWMdULZq0Azy7ywkG?usp=sharing
