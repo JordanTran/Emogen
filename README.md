@@ -1,4 +1,3 @@
-# Emogen
 ![alt text](Emogen_poster.png)
 
 # Model/Data Download
